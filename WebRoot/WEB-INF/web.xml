@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>showdoctorsClServlet</servlet-name>
+    <servlet-class>com.aq.servlet.showdoctorsClServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>appoClServlet</servlet-name>
+    <servlet-class>com.aq.servlet.appoClServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>appoCl2</servlet-name>
+    <servlet-class>com.aq.servlet.appoCl2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginCl</servlet-name>
+    <servlet-class>com.aq.servlet.LoginCl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>apClServlet</servlet-name>
+    <servlet-class>com.aq.servlet.apClServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>newsC</servlet-name>
+    <servlet-class>com.aq.servlet.newsC</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>showdoctorsClServlet</servlet-name>
+    <url-pattern>/showdoctorsClServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>appoClServlet</servlet-name>
+    <url-pattern>/appoClServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>appoCl2</servlet-name>
+    <url-pattern>/appoCl2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginCl</servlet-name>
+    <url-pattern>/LoginCl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>apClServlet</servlet-name>
+    <url-pattern>/apClServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>newsC</servlet-name>
+    <url-pattern>/servlet/newsC</url-pattern>
+  </servlet-mapping>
+  <context-param>
+    <param-name>host</param-name>
+    <param-value>smtp.gmail.com</param-value>
+  </context-param>
+  <context-param>
+    <param-name>port</param-name>
+    <param-value>587</param-value>
+  </context-param>
+  <context-param>
+    <param-name>user</param-name>
+    <param-value>uwece651@gmail.com</param-value>
+  </context-param>
+  <context-param>
+    <param-name>pass</param-name>
+    <param-value>anqianqi</param-value>
+  </context-param>
+  <welcome-file-list>
+    <welcome-file>EmailForm2.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>NoteClServlet</servlet-name>
+    <servlet-class>com.aq.servlet.NoteClServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NoteClServlet</servlet-name>
+    <url-pattern>/NoteClServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>showpeopleClServlet</servlet-name>
+    <servlet-class>com.aq.servlet.showpeopleClServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>showpeopleClServlet</servlet-name>
+    <url-pattern>/showpeopleClServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

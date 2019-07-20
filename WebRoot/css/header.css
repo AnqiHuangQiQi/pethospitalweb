@@ -1,0 +1,26 @@
+.headerWrapper {
+	width: 100%;
+	background-color: #00c4cc;
+	min-height: 50px;
+}
+
+div.headerWrapper span {
+	color: #FFF967;
+	float:left;
+	padding: 10px 20px;
+	font-family: 'Cardo', serif;
+	font-size: 20px;
+}
+
+div.headerWrapper span:last-child {
+	float:right;
+}
+
+div.headerWrapper a, a:visited {
+	text-decoration: none;
+	color: #FFF967;
+}
+
+div.headerWrapper a:hover {
+	color: #FFFFFF;
+}
