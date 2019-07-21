@@ -20,17 +20,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<link rel="stylesheet" type="text/css" href="css/my.css">
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
-	<style type="text/css">
-		table,td,tr {
-			border: none;
-		}
-		a {
-			text-decoration: none;
-		}
-		a:visited {
-			color: #8333FF;
-		}
-	</style>
+
   </head>
   
  <body topmargin="0" bgcolor="#FFFFFF">

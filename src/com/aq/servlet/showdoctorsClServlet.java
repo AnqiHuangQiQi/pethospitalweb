@@ -50,9 +50,9 @@ public class showdoctorsClServlet extends HttpServlet {
 		
 		//call doctors bean bo
 		doctors_beanbo dbb = new doctors_beanbo();
-		System.out.println("000"+Long.parseLong(doctors_id));
+
 		doctors_bean db = dbb.getDocBean(Long.parseLong(doctors_id));
-		System.out.println(db);
+
 		request.setAttribute("doctorsinfo", db);
 		
 		request.getRequestDispatcher("showDetail.jsp").forward(request, response);

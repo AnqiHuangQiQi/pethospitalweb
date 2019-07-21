@@ -57,12 +57,12 @@ public class LoginCl extends HttpServlet {
 			
 			request.setAttribute("myappoInfo", al);
 			
-			System.out.println("222symbol = "+symbol);
+
 			if(symbol.equals("null"))
 			{
-				System.out.println("333symbol = "+symbol);
+
 				request.getRequestDispatcher("appo3.jsp").forward(request, response);
-				System.out.println("444symbol = "+symbol);
+
 			}else if(symbol.equals("luck")){
 				request.getRequestDispatcher("NoteClServlet?flag=decide").forward(request, response);
 			}

@@ -1,26 +1,21 @@
-.headerWrapper {
-	width: 100%;
-	background-color: #00c4cc;
-	min-height: 50px;
+ul.navWrapper {
+	background-image: linear-gradient(#FFFFFF, #4EC5C1 85%, #FFFFFF);
+	height: 45px;
+	list-style-type: none;
+	display: flex;
+}
+li.headerItem {
+	display: inline;
+	text-align: center;
+	width: 200px;
+	margin: auto;
 }
 
-div.headerWrapper span {
-	color: #FFF967;
-	float:left;
-	padding: 10px 20px;
-	font-family: 'Cardo', serif;
-	font-size: 20px;
+.headerAnchor {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
-div.headerWrapper span:last-child {
-	float:right;
-}
-
-div.headerWrapper a, a:visited {
+a, a:visited {
 	text-decoration: none;
-	color: #FFF967;
-}
-
-div.headerWrapper a:hover {
 	color: #FFFFFF;
 }

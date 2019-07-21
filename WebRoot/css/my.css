@@ -1,16 +1,13 @@
+table,td,tr {
+	border: none;
+}
+a {
+	text-decoration: none;
+}
+
 .abc {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 12.5pt;
-}
-tr td.border{
-    border-style:dotted solid dotted solid; 
-    border-width: 0px 3px 0px 3px;
-    text-shadow: white 0 2px 0;
-}
-.aaa {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 10pt;
-	background-color: #FFFFFF;
 }
 
 .bbb {
