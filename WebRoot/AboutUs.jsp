@@ -18,18 +18,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<meta http-equiv="description" content="This is my page">
 
 	<link rel="stylesheet" type="text/css" href="css/my.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
 	
-	<style type="text/css">
-		table,td,tr {
-			border: none;
-		}
-		a {
-			text-decoration: none;
-		}
-		a:visited {
-			color: #8333FF;
-		}
-	</style>
   </head>
   
  <body topmargin="0" background="images/qiangzhi02.png" style="background-repeat:inherit">

@@ -3,6 +3,7 @@ ul.navWrapper {
 	height: 45px;
 	list-style-type: none;
 	display: flex;
+	margin-top: 0px;
 }
 li.headerItem {
 	display: inline;
@@ -11,11 +12,23 @@ li.headerItem {
 	margin: auto;
 }
 
+.infoAnchor {
+	display: block;
+	margin: 15px 0;
+	position: relative;
+	color: #000000;
+}
+.infoAnchor span {
+	left: 40px;
+	top: 10%;
+	position: absolute;
+}
+
 .headerAnchor {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
 }
 
 a, a:visited {
 	text-decoration: none;
-	color: #FFFFFF;
 }

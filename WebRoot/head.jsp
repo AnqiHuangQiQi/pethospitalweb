@@ -5,22 +5,21 @@
    %>
 <table width="100%" table-layout="fixed">
    <tr>
-      <td class="abc"><img src="images/mylogo.GIF" width="150" height="140" /></td>
-      <td class="abc"><img src="images/loogo.png" width="430" height="140" style="margin-right: 20px"/></td>
-      <td class="abc">
-         <p><img src="images/loo.GIF" width="30" height="28" /> <span class="abc"><span class="abc">
-            <a href="appoCl2">
-            My Account</a></span></span>
-         </p>
-         <p><img src="images/notepad.jpg" width="30" height="28" /> <span class="abc"><span class="abc">
-            <a href="NoteClServlet?flag=decide">
-            My Notepad</a></span></span>
-         </p>
-         <p><img src="images/appoi.jpg" width="30" height="28" /><span class="STYLE4"><span class="abc"> 
-            <a href="appoClServlet?type=show">
-            Appointment
-            </a></span></span>
-         </p>
+      <td><img src="images/mylogo.GIF" width="155" height="140" /></td>
+      <td><img src="images/loogo.png" width="490" height="140" style="margin-right: 20px"/></td>
+      <td width="160">
+            <a href="appoCl2" class="infoAnchor">
+            <img src="images/loo.GIF" width="30" height="28" />
+            <span>My Account</span>
+            </a>
+            <a href="NoteClServlet?flag=decide" class="infoAnchor">
+            <img src="images/notepad.jpg" width="30" height="28" />
+            <span>My Notepad</span>
+            </a>
+            <a href="appoClServlet?type=show" class="infoAnchor">
+            <img src="images/appoi.jpg" width="30" height="28" />
+            <span>Appointment</span>
+            </a>
       </td>
    </tr>
 </table>

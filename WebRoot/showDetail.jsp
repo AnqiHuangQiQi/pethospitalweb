@@ -22,17 +22,7 @@ doctors_bean db = (doctors_bean)request.getAttribute("doctorsinfo");
 	<meta http-equiv="description" content="This is my page">
 
 	<link rel="stylesheet" type="text/css" href="css/my.css">
-	<style type="text/css">
-		table,td,tr {
-			border: none;
-		}
-		a {
-			text-decoration: none;
-		}
-		a:visited {
-			color: #8333FF;
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<script type="text/javascript">
 	<!--
 		function returnHall(){
