@@ -21,14 +21,12 @@
    
    int pageCount = dbb.getPageCount(6);
    
-   
-   
-   
    %>
-<table width="100%" border="0" style="height: 207px;">
+<table width="100%" border="0" style="border-collapse:collapse; height: 207px;">
    <tr>
-      <td colspan="3" bgcolor="#045FB4" style="height: 23px; border-radius:10px; color:#FFFFFF">
-         <div align="center" class="abc">Excellent Veterinarians Recommendation </div>
+      <td colspan="3"
+       style="height: 28px; font-weight:bold; color:#FFFFFF; background-image:linear-gradient(#FFFFFF, #EC5768 90%, #FFFFFF);">
+         <div align="center" class="abc">Excellent Veterinarians</div>
       </td>
    </tr>
    <%
@@ -43,9 +41,6 @@
          	for(int j=0;j<3;j++){
          	doctors_bean db = new doctors_bean();
          	if(time>=al.size()){
-         		//cannot get anymore
-         		//default information
-         		
          		
          		db.setDoctorId(0);
          		db.setDoctor_Wo("Not Available");
@@ -60,15 +55,14 @@
          	time++;
          	}
          	%>
-      <td width="10%">
-         <table width="100%" height="179" style="border-collapse:collapse; border-style:dotted solid dotted dotted; border-width: 0px 1px 0px 0px;">
+      <td width="10%" border="0">
+      <div class="multbg-top-to-bottom">
+         <table width="100%" height="179">
             <tr>
                <td width="40%" rowspan="3"><img src="<%=db.getDoctor_Ph() %>" width="136" height="125" align="absmiddle" />
                </td>
-               <td width="80%" bgcolor="#D8D8D8">
+               <td bgcolor="#E5E338" style="border-radius: 20px;">
                   <a style="text-decoration:none;" class="abc" href="showdoctorsClServlet?type=showDetail&id=<%=db.getDoctorId() %>"><%=db.getDoctor_Na() %></a>
-               </td>
-               <td width="20%" bgcolor="#FFBF00">    
                </td>
             </tr>
             <tr>
@@ -83,22 +77,13 @@
                </td>
             </tr>
          </table>
+      </div>
       </td>
       <% 
          }
          %>
    </tr>
-   <% 
-      //judge if it is for the first line
-      
-      if(i==0){
-      
-      %>
-   <tr>
-      <td colspan="3" bgcolor="yellow">&nbsp;</td>
-   </tr>
    <%	
-      }
       }
       
       %>

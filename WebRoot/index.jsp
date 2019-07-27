@@ -35,7 +35,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <td width="75%" height="251" valign="top" align="center">
     <jsp:include flush="true" page="right.jsp"></jsp:include>
     </td>
-    <td width="25"  height="251" valign="top" align="center">
+    <td width="25%"  height="251" valign="top" align="center">
     <jsp:include flush="true" page="left.jsp"></jsp:include>
     </td>
   </tr>

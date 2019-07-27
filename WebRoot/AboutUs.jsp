@@ -22,7 +22,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	
   </head>
   
- <body topmargin="0" background="images/qiangzhi02.png" style="background-repeat:inherit">
+ <body topmargin="0" style="background-repeat:inherit">
  <% 
 people_beanbo ndbb = new people_beanbo();
 String s_pageNow = (String)request.getAttribute("abc");
